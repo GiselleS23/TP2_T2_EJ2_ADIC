@@ -9,11 +9,15 @@ public class Main {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     double ventasMes, gastosMes, gananciaMes, ingBrutosMes;
+    double ingB = 0.25;
+    
     System.out.println("Ingrese el total de ventas del mes: ");
     ventasMes = scanner.nextDouble();
+    
     System.out.println("Ingrese el total de gastos del mes: ");
     gastosMes = scanner.nextDouble();
-    ingBrutosMes = ventasMes*0.25;
+    //calculo de los ingresos brutos
+    ingBrutosMes = ventasMes*ingB;
     System.out.println("El ingreso bruto del mes es: " + ingBrutosMes);
     scanner.close();
 
