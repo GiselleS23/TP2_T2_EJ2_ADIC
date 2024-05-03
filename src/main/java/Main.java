@@ -1,5 +1,6 @@
 
-/* 2.- Un comerciante tributa mensualmente un impuesto provincial a los ingresos brutos, que es el 25% del total de ventas. Conociendo dicho total de ventas y el total de gastos del mes, se desea calcular la ganancia mensual del comerciante */
+/* 2.- Un comerciante tributa mensualmente un impuesto provincial a los ingresos brutos, que es el 25% del total de ventas. Conociendo dicho total de ventas y el total de gastos del mes, se desea calcular la ganancia mensual del comerciante 
+Sacchetti, Maria Giselle C2*/
 
 import java.util.Scanner;
 
